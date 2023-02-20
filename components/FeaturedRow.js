@@ -11,7 +11,6 @@ const FeaturedRow = ({id, title, description, featuredCategory}) => {
             <ArrowRightIcon color="#00CCBB" />
         </View>
         <Text className="text-xs text-gray-500 px-4">{description}</Text>
-
         <View className="px-4">
             <ScrollView 
             horizontal

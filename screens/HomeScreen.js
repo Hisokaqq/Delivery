@@ -8,8 +8,9 @@ import {
     MagnifyingGlassIcon,
     AdjustmentsVerticalIcon
  } from "react-native-heroicons/outline";
- import FeaturedRow from './components/FeaturedRow';
-import Categories from './components/Categories';
+import FeaturedRow from '../components/FeaturedRow';
+import Categories from '../components/Categories';
+
 const HomeScreen = () => {
     const navigation = useNavigation()
     useLayoutEffect(()=>{
@@ -17,6 +18,7 @@ const HomeScreen = () => {
             headerShown: false,
         })
     },[])
+    
   return (
     <SafeAreaView className="bg-white pt-5">
         <View className="flex-row pb-3 items-center mx-4 space-x-2">
